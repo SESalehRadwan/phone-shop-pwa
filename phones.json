@@ -1,17 +1,26 @@
 [
   {
     "name": "iPhone 14 Pro",
-    "price": 999,
-    "image": "images/iphone14pro.jpg"
+    "price": "$999",
+    "image": "images/iphone.jpg",
   },
+  {	
+    "name": "Samsung Galaxy S23",
+    "price": "$849",
+    "image": "images/samsung.jpg",
   {
-    "name": "Samsung Galaxy S24",
-    "price": 899,
-    "image": "images/galaxys24.jpg"
-  },
-  {
-    "name": "Xiaomi 13T Pro",
+    "name": "OPPO A3",
     "price": 599,
-    "image": "images/xiaomi13tpro.jpg"
+    "image": "images/oppo.jpg"
+  },
+  {
+    "name": "Huawei P40 Pro",
+    "price": 649,
+    "image": "images/huawei.jpg"
+  },
+  {
+    "name": "infinx not 10",
+    "price": 800,
+    "image": "images/infinx.jpg"
   }
 ]
