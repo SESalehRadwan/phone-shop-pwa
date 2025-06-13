@@ -1,0 +1,17 @@
+[
+  {
+    "name": "iPhone 14 Pro",
+    "price": 999,
+    "image": "images/iphone14pro.jpg"
+  },
+  {
+    "name": "Samsung Galaxy S24",
+    "price": 899,
+    "image": "images/galaxys24.jpg"
+  },
+  {
+    "name": "Xiaomi 13T Pro",
+    "price": 599,
+    "image": "images/xiaomi13tpro.jpg"
+  }
+]

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PhoneX Shop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a74da">
+</head>
+<body>
+  <header>
+    <h1>📱 PhoneX Shop</h1>
+    <input type="text" id="searchInput" placeholder="Search phones...">
+    <button onclick="viewCart()">🛒 Cart (<span id="cart-count">0</span>)</button>
+  </header>
+
+  <main id="phones-container"></main>
+
+  <section id="cart-section" style="display: none;">
+    <h2>Your Cart</h2>
+    <ul id="cart-list"></ul>
+    <p>Total: $<span id="cart-total">0</span></p>
+    <button onclick="checkout()">Checkout</button>
+    <button onclick="closeCart()">Close</button>
+  </section>
+
+  <script src="script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('Service Worker Registered'));
+    }
+  </script>
+</body>
+</html>

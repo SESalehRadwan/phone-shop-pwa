@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0a74da;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input[type="text"] {
+  padding: 0.5em;
+  width: 200px;
+  margin-right: 10px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em;
+}
+
+.phone {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.phone img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #0a74da;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+
+button:hover {
+  background-color: #0958a4;
+}
+
+#cart-section {
+  background-color: #fff;
+  padding: 1em;
+  border: 1px solid #ddd;
+  margin: 1em;
+}
